@@ -19,13 +19,9 @@ const trigger = document.getElementById("trigger");
 trigger.addEventListener("click", () => {
   const interest = (principal.value * rate.value * time.value) / 100;
   const total = Number(principal.value) + interest;
-  console.log(
-    "After ",
-    time.value,
-    " years at an interest rate of ",
-    rate.value,
-    "%, the total amount will be ",
-    total,
-    ".",
-  );
+  const summary = document.createElement("p");
+  summary.textContent = "After " + time.value + " years at an interest rate of " + rate.value + "%, the total amount will be " + total + ".";
+  document.body.appendChild(summary);
 });
+
+
