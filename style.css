@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding: 8px 0;
+    font-weight: bold;
+}
+
+input {
+    width: 25%;
+    height: 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px silver solid;
+}
+
+button {
+    width: 20%;
+    height: 20px;
+    font-size: 8px;
+    color: white;
+    background-color: green;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 0;
+    text-align: center;
+    line-height: .6;
+    margin: 8px 0;
+}
+
+button:hover {
+    width: 25%;
+    height: 25px;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(28, 153, 28);
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+    line-height: .6;
+    margin: 10px 0;
+    cursor: pointer;
+}
